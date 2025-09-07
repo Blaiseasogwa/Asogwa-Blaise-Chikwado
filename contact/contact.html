@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <footer>
+    <section id="ContactInformation">
+    <h2>Contact Information</h2>
+    <ul>
+        <li>
+            &nbsp;Contact me at <a href="mailto:blaiseasogwa@gmail.com">My Email Address</a>
+        </li>
+        <li>
+            &nbsp;Dail <a href="Tel:+2348137688276/+2348121767584">My Phone Number</a>
+        </li>
+        <li>
+            &nbsp;Click <a href="URL">My Linkedin</a>
+        </li>
+        <li>
+            &nbsp;Open <a href="https://www.google.com/" target="_blank">google</a> in a new tab.
+        </li>
+        <LI>&nbsp;Address: house 5, F close, 23 road, Festac Town, Lagos.</LI>
+    </ul>
+    </section>
+    <hr>
+
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p class="fill">fill the form below</p>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Info</legend>
+            <p>
+              <label for="FirstName">First Name:</label>
+              <input type="text" name="FirstName" id="FirstName" placeholder="Blaise" autocomplete="on" required autofocus>
+            </p>
+
+            <p>
+              <label for="LastName">Last Name:</label>
+              <input type="text" name="LastName" id="LastName" placeholder="Chikwado" autocomplete="on" required>
+            </p>
+
+            <p>
+              <label for="SurName">SurName:</label>
+              <input type="text" name="SurName" id="SurName" placeholder="Asogwa" autocomplete="on" required>
+            </p>
+
+            <p>
+              <label for="Password">Password:</label>
+              <input type="password" name="Password" id="Password" placeholder="Your secret" autocomplete="on" required>
+            </p>
+
+            <p>
+              <label for="Phone">Phone:</label>
+              <input type="tel" name="Phone" id="Phone" placeholder="+234 813 768 8276" 
+              pattern="[+,0-9]{4} [0-9]{3} [0-9]{3} [0-9]{4}" required>
+            </p>
+
+            <p>
+              <label for="Decade">Year of Birth:</label>
+              <input type="number" name="Decade" id="Decade" min="1998" max="2020" step="1" value="2001">
+            </p>
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee">
+                    <optgroup label="coffee">
+                    <option value="regular coffee">Regular Coffee</option>
+                    <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Drink">
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="cortado">Cortado</option>
+                    <option value="americano">Americano</option>
+                    <option value="other">Other</option>
+                    </optgroup>
+                </select>
+
+
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend>what is your favorite food?</legend>
+                <p>
+                    <input type="radio" name="food" id="tacos" value="tacos">
+                    <label for="tacos">Tacos</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="pizza" value="pizza">
+                    <label for="pizza">Pizza</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="" value="other">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="cat">
+                    <label for="cat">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="dog">
+                    <label for="dog">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="fish">
+                    <label for="fish">Fish</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="other">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send me a note</legend>
+                <label for="message">Your message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+
+        </form>
+    </article> 
+    <p>
+        <a href="/">Back to Home</a>
+    </p>   
+</body>
+</html>

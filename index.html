@@ -13,15 +13,18 @@
 </head>
 <body>
     <header>
-    <h1>Personal portfolio of Asogwa Blaise Chikwado</h1>
+    <h1 class="heading">Personal portfolio of Asogwa Blaise Chikwado</h1>
 <hr>
-<img src="images/IMG-20241107-WA0096.jpg" alt="Profile picture" width="200" height="300" title="My final year project picture" loading="lazy">
-    <h2>About&nbsp;me</h2>
-    <p>I am Asogwa Blaise Chikwado, a passionate graduate of Biology Education (Enugu State University of Science and Technology) <em>strong interests in education, technology, and creative design.</em> <strong>I am committed to building solutions that makes learning easier and more engaging for students while exploring opportunities in data analysis, digital ediucation and entrepreneurship.</strong></p>
+<img class="image 1"  src="images/IMG-20241107-WA0096.jpg" alt="Profile picture" width="200" height="300" title="My final year project picture" loading="lazy">
+
+    <h2 class="about me">About&nbsp;me</h2>
+    <p>
+        I am Asogwa Blaise Chikwado, a passionate graduate of Biology Education (Enugu State University of Science and Technology) <em>interests in education, technology, and creative design.</em> I am committed to building solutions that makes learning easier and more engaging for students while exploring opportunities in data analysis, digital ediucation and entrepreneurship.
+    </p>
 
     <hr>
 
-    <nav aria-label="Primary navigation">
+    <nav aria-label="Primary navigation" class="navigation">
         <ul>
             <li>
                 <a href="#CareerObjective">Career Objective</a>
@@ -44,8 +47,9 @@
             <li>
                 <a href="#Interests">Interests</a>
             </li>
+            
             <li>
-                <a href="#Contact">Contact me</a>
+                <a href="./contact/contact.html">Contact me</a>
             </li>
         </ul>
     </nav>
@@ -158,41 +162,41 @@
     <hr>
 
     <article id="contact">
-        <h2>Contact Me</h2>
-        <p>Tell me your mind</p>
+        <h2>Contact me</h2>
+        <p class="fill">fill the form below</p>
 
         <form action="https://httpbin.org/get" method="get">
             <fieldset>
                 <legend>Personal Info</legend>
             <p>
-            <label for="FirstName">First Name:</label>
-            <input type="text" name="FirstName" id="FirstName" placeholder="Blaise" autocomplete="on" required autofocus>
+              <label for="FirstName">First Name:</label>
+              <input type="text" name="FirstName" id="FirstName" placeholder="Blaise" autocomplete="on" required autofocus>
             </p>
 
             <p>
-            <label for="LastName">Last Name:</label>
-            <input type="text" name="LastName" id="LastName" placeholder="Chikwado" autocomplete="on" required>
+              <label for="LastName">Last Name:</label>
+              <input type="text" name="LastName" id="LastName" placeholder="Chikwado" autocomplete="on" required>
             </p>
 
             <p>
-            <label for="SurName">SurName:</label>
-            <input type="text" name="SurName" id="SurName" placeholder="Asogwa" autocomplete="on" required>
+              <label for="SurName">SurName:</label>
+              <input type="text" name="SurName" id="SurName" placeholder="Asogwa" autocomplete="on" required>
             </p>
 
             <p>
-            <label for="Password">Password:</label>
-            <input type="password" name="Password" id="Password" placeholder="Your secret" autocomplete="on" required>
+              <label for="Password">Password:</label>
+              <input type="password" name="Password" id="Password" placeholder="Your secret" autocomplete="on" required>
             </p>
 
             <p>
-            <label for="Phone">Phone:</label>
-            <input type="tel" name="Phone" id="Phone" placeholder="+234 813 768 8276" 
-            pattern="[+,0-9]{4} [0-9]{3} [0-9]{3} [0-9]{4}" required>
+              <label for="Phone">Phone:</label>
+              <input type="tel" name="Phone" id="Phone" placeholder="+234 813 768 8276" 
+              pattern="[+,0-9]{4} [0-9]{3} [0-9]{3} [0-9]{4}" required>
             </p>
 
             <p>
-            <label for="Decade">Year of Birth:</label>
-            <input type="number" name="Decade" id="Decade" min="1998" max="2020" step="1" value="2001">
+              <label for="Decade">Year of Birth:</label>
+              <input type="number" name="Decade" id="Decade" min="1998" max="2020" step="1" value="2001">
             </p>
             <p>
                 <label for="coffee">Favorite Coffee:</label>
@@ -253,11 +257,11 @@
 </main>
     <hr>
     <a href="https://www.myportfolio.org/en-US/about/Blaiseasogwa">Blaise Asogwa</a>
-<p>
+<p class="motto">
     &nbsp;DRIVEN BY PASSION FOR EDUCATION, POWERED BY TECHNOLOGY, AND INSSPIRED TO LEAD.
     &lt;&lt;&copy; <a href="about.html">Blaise Leo</a> &gt;&gt;
 </p>
-<p>
+<p class="back to Top">
     <a href="#">Back to Top</a>
 </p>
 </footer>
