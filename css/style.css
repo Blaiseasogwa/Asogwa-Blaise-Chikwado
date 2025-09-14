@@ -1,11 +1,21 @@
 html{
     background-color: ghostwhite;
-    font-size: 20px;
+    
+}
+
+h2{
+    color: red;
+    font-style: italic; 
+    font-weight: bold;
+    border: 2px dashed blue;
 }
 
 .heading{
     background-color: black;
     color: gold;
+    border: 5px dashed gold;
+    padding-inline: 5px;
+    padding-block: 3px;
 }
 
 .about{
@@ -20,6 +30,33 @@ p.about.me{
 }
 
 a:link{
-    color: brown;
+    font-weight: bold;
+    font-style: italic;
 
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: purple;
+}
+
+#CareerObjective{
+    color: blue;
+
+}
+
+.Objective{
+    color: red;
+
+}
+
+.Edu{
+    color: red;
+}
+
+.skill{ 
+    colo
 }
