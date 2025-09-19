@@ -8,6 +8,11 @@ h2{
     font-style: italic; 
     font-weight: bold;
     border: 2px dashed blue;
+    border-right: 2px dotted red;
+    border-left: 2px dotted red;
+    margin: 4px;
+    padding-inline: 5px;
+
 }
 
 .heading{
@@ -18,15 +23,20 @@ h2{
     padding-block: 3px;
 }
 
-.about{
+.me{
+    margin: 5px
     color: red;
+    border: 5px double blue;
+    outline: 3px solid red;
+    outline-offset: 2px;
 }
 
-p.about.me{
+.about.me{
     background-color: black;
     color: burlywood;
     padding-block: 4px;
     padding-inline: 4px;
+    outline: none;
 }
 
 a:link{
@@ -50,6 +60,9 @@ a:hover{
 
 .Objective{
     color: red;
+    border: 5px double blue;
+    outline: dotted red;
+    outline-offset:2px ;
 
 }
 
@@ -59,4 +72,42 @@ a:hover{
 
 .skill{ 
     colo
+}
+
+.Experience{
+    
+}
+
+.Experiencelist{
+    line-height: 2rem;
+}
+
+
+
+.Achievment{
+
+}
+
+.Interests{
+
+}
+
+.Question{
+
+}
+
+.Contactinfo{
+
+}
+
+.contactme{
+
+}
+
+.fill{
+
+}
+
+.motto{
+
 }
